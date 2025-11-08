@@ -1,0 +1,116 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "nombre": "Laptop HP Pavilion",
+      "descripcion": "Laptop de alto rendimiento con procesador Intel Core i7",
+      "precio": 899.99,
+      "categoria": "Electrónica",
+      "stock": 15,
+      "especificaciones": {
+        "procesador": "Intel Core i7-12700H",
+        "ram": "16GB DDR4",
+        "almacenamiento": "512GB SSD",
+        "pantalla": "15.6 pulgadas Full HD"
+      }
+    },
+    {
+      "id": 2,
+      "nombre": "Mouse Logitech MX Master 3",
+      "descripcion": "Mouse inalámbrico ergonómico para productividad",
+      "precio": 99.99,
+      "categoria": "Accesorios",
+      "stock": 45,
+      "especificaciones": {
+        "conectividad": "Bluetooth y USB-C",
+        "bateria": "Hasta 70 días",
+        "dpi": "4000 DPI",
+        "botones": "7 botones programables"
+      }
+    },
+    {
+      "id": 3,
+      "nombre": "Teclado Mecánico Keychron K2",
+      "descripcion": "Teclado mecánico inalámbrico compacto con switches Gateron",
+      "precio": 79.99,
+      "categoria": "Accesorios",
+      "stock": 30,
+      "especificaciones": {
+        "switches": "Gateron Brown",
+        "layout": "75%",
+        "conectividad": "Bluetooth y USB-C",
+        "retroiluminacion": "RGB"
+      }
+    },
+    {
+      "id": 4,
+      "nombre": "Monitor Dell UltraSharp 27",
+      "descripcion": "Monitor profesional 4K con tecnología IPS",
+      "precio": 449.99,
+      "categoria": "Electrónica",
+      "stock": 12,
+      "especificaciones": {
+        "tamaño": "27 pulgadas",
+        "resolucion": "3840x2160 (4K)",
+        "tipo_panel": "IPS",
+        "frecuencia": "60Hz"
+      }
+    },
+    {
+      "id": 5,
+      "nombre": "Auriculares Sony WH-1000XM5",
+      "descripcion": "Auriculares con cancelación de ruido premium",
+      "precio": 399.99,
+      "categoria": "Audio",
+      "stock": 25,
+      "especificaciones": {
+        "tipo": "Over-ear",
+        "cancelacion_ruido": "Activa",
+        "bateria": "Hasta 30 horas",
+        "conectividad": "Bluetooth 5.2"
+      }
+    },
+    {
+      "id": 6,
+      "nombre": "Webcam Logitech C920",
+      "descripcion": "Webcam Full HD para videoconferencias",
+      "precio": 69.99,
+      "categoria": "Accesorios",
+      "stock": 50,
+      "especificaciones": {
+        "resolucion": "1080p Full HD",
+        "fps": "30 fps",
+        "campo_vision": "78 grados",
+        "microfono": "Estéreo integrado"
+      }
+    },
+    {
+      "id": 7,
+      "nombre": "SSD Samsung 980 PRO",
+      "descripcion": "Unidad de estado sólido NVMe de alta velocidad",
+      "precio": 149.99,
+      "categoria": "Almacenamiento",
+      "stock": 40,
+      "especificaciones": {
+        "capacidad": "1TB",
+        "interfaz": "PCIe 4.0 NVMe",
+        "velocidad_lectura": "7000 MB/s",
+        "velocidad_escritura": "5000 MB/s"
+      }
+    },
+    {
+      "id": 8,
+      "nombre": "Tablet iPad Air",
+      "descripcion": "Tablet de Apple con chip M1 y pantalla Liquid Retina",
+      "precio": 599.99,
+      "categoria": "Electrónica",
+      "stock": 20,
+      "especificaciones": {
+        "procesador": "Apple M1",
+        "pantalla": "10.9 pulgadas Liquid Retina",
+        "almacenamiento": "64GB",
+        "camara": "12MP gran angular"
+      }
+    }
+  ]
+}
