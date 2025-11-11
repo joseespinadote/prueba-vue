@@ -1,6 +1,16 @@
 # mi-proyecto-vue
 
-This template should help get you started developing with Vue 3 in Vite.
+Sistema de gestión de items desarrollado con Vue 3, TypeScript y Vite. Esta aplicación permite listar, visualizar, crear y eliminar items con sus respectivos detalles como nombre, descripción, precio, categoría, stock y especificaciones técnicas.
+
+## Características
+
+- **Lista de Items**: Visualiza todos los items en una tabla con información resumida
+- **Detalle de Item**: Vista detallada de cada item con todas sus especificaciones
+- **Gestión CRUD**: Añade y elimina items de la lista
+- **Manejo de Estado**: Utiliza Pinia para la gestión centralizada del estado
+- **Enrutamiento**: Implementado con Vue Router para navegación entre vistas
+- **TypeScript**: Desarrollo con tipado estático para mayor seguridad
+- **Pruebas Unitarias**: Suite completa de tests con Vitest y Vue Test Utils
 
 ## Recommended IDE Setup
 
@@ -43,9 +53,36 @@ npm run build
 
 ### Run Unit Tests with [Vitest](https://vitest.dev/)
 
+El proyecto incluye pruebas unitarias para todos los componentes y el store de Pinia.
+
 ```sh
+# Ejecutar todas las pruebas
 npm run test:unit
+
+# Ejecutar pruebas en modo watch (recomendado para desarrollo)
+npm run test:unit -- --watch
+
+# Ejecutar pruebas con cobertura
+npm run test:unit -- --coverage
+
+# Ejecutar pruebas en modo UI
+npm run test:unit -- --ui
 ```
+
+#### Archivos de prueba incluidos:
+- `src/App.spec.ts` - Pruebas del componente principal y navegación
+- `src/components/ProjectAbout.spec.ts` - Pruebas del componente About
+- `src/components/ItemList.spec.ts` - Pruebas del componente de lista de items
+- `src/components/ItemDetail.spec.ts` - Pruebas del componente de detalle de item
+- `src/stores/items.spec.ts` - Pruebas del store de Pinia (getters, actions)
+
+Las pruebas cubren:
+- Renderizado de componentes
+- Interacción del usuario (clicks, formularios)
+- Navegación entre rutas
+- Gestión de estado con Pinia
+- Validación de datos
+- Casos edge (items inexistentes, validaciones, etc.)
 
 ### Lint with [ESLint](https://eslint.org/)
 
